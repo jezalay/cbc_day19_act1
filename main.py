@@ -3,7 +3,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 
 
 app = Flask(__name__)
-app.secret_key = 'yakit'
+app.secret_key = 'jezamie'
 
 
 users = {}
