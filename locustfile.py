@@ -32,12 +32,12 @@ class WebsiteUser(HttpUser):
 
         # POST /add-info
         self.session.post("/add-info", data={
-            "fname": "Mark Angelo",
-            "mname": "G.",
-            "lname": "Yakit",
+            "fname": "jezamie",
+            "mname": "v.",
+            "lname": "bayron",
             "age": str(random.randint(18, 60)),
             "address": "Butuan City",
-            "birthday": "1990-01-01"
+            "birthday": "2002-12-18"
         })
 
         print(f"user {self.user_id}: Done queue")
